@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "Strategy/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Strategy.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Strategy.dll": {}
-        }
-      }
-    }
+    "net5.0": {}
   },
-  "libraries": {
-    "Strategy/1.0.0": {
-      "type": "project",
-      "path": "../Strategy/Strategy.csproj",
-      "msbuildProject": "../Strategy/Strategy.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "Strategy >= 1.0.0"
-    ]
+    "net5.0": []
   },
   "packageFolders": {
     "/home/filip/.nuget/packages/": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/filip/Sources/Repos/DesignPatternsExamples/DesignPatternsExamples/DesignPatternsExamples.csproj",
-      "projectName": "DesignPatternsExamples",
-      "projectPath": "/home/filip/Sources/Repos/DesignPatternsExamples/DesignPatternsExamples/DesignPatternsExamples.csproj",
+      "projectUniqueName": "/home/filip/Sources/Repos/DesignPatternsExamples/Strategy/Strategy.csproj",
+      "projectName": "Strategy",
+      "projectPath": "/home/filip/Sources/Repos/DesignPatternsExamples/Strategy/Strategy.csproj",
       "packagesPath": "/home/filip/.nuget/packages/",
-      "outputPath": "/home/filip/Sources/Repos/DesignPatternsExamples/DesignPatternsExamples/obj/",
+      "outputPath": "/home/filip/Sources/Repos/DesignPatternsExamples/Strategy/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/filip/.nuget/NuGet/NuGet.Config"
@@ -50,11 +31,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "/home/filip/Sources/Repos/DesignPatternsExamples/Strategy/Strategy.csproj": {
-              "projectPath": "/home/filip/Sources/Repos/DesignPatternsExamples/Strategy/Strategy.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

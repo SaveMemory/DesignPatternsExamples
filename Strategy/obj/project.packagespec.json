@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/filip/Sources/Repos/DesignPatternsExamples/DesignPatternsExamples/DesignPatternsExamples.csproj",
-    "projectName": "DesignPatternsExamples",
-    "projectPath": "/home/filip/Sources/Repos/DesignPatternsExamples/DesignPatternsExamples/DesignPatternsExamples.csproj",
-    "outputPath": "/home/filip/Sources/Repos/DesignPatternsExamples/DesignPatternsExamples/obj/",
+    "projectUniqueName": "/home/filip/Sources/Repos/DesignPatternsExamples/Strategy/Strategy.csproj",
+    "projectName": "Strategy",
+    "projectPath": "/home/filip/Sources/Repos/DesignPatternsExamples/Strategy/Strategy.csproj",
+    "outputPath": "/home/filip/Sources/Repos/DesignPatternsExamples/Strategy/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "net50"
@@ -14,11 +14,7 @@
     },
     "frameworks": {
       "netcoreapp5.0": {
-        "projectReferences": {
-          "/home/filip/Sources/Repos/DesignPatternsExamples/Strategy/Strategy.csproj": {
-            "projectPath": "/home/filip/Sources/Repos/DesignPatternsExamples/Strategy/Strategy.csproj"
-          }
-        }
+        "projectReferences": {}
       }
     },
     "warningProperties": {
